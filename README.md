@@ -31,5 +31,5 @@ pip install .
 ```
 <br>
 
-**Thanks**
-This module is built on [this `pyPWT`](https://github.com/jonduan/penn-world-tables), which is forked from the [original `pyPWT`](https://github.com/davidrpugh/penn-world-tables).
+**Note:**
+Part of the code of this module is built on [this `pyPWT`](https://github.com/jonduan/penn-world-tables), which is forked from the [original `pyPWT`](https://github.com/davidrpugh/penn-world-tables).
