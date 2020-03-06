@@ -5,7 +5,7 @@ from __future__ import division
 from io import BytesIO
 import pandas as pd
 import requests
-
+import zipfile
 
 var_defitions = """\
 Variable name:	Variable definition
