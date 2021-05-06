@@ -10,20 +10,20 @@ for filename in glob.iglob('./pwtdata/**', recursive=True):
         additional_files.append(filename.replace('./pwtdata/', ''))
 
 
-setup(name='pwtdata',
-      packages=find_packages(),
-      package_dir={'pwtdata': './pwtdata'},
-      version='0.2.0',
-      description='Python package containing the Penn World Tables dataset.',
-      author='Tetsu HARUYAMA',
-      author_email='haruyama@econ.kobe-u.ac.jp',
-      url='https://github.com/spring-haru/pwtdata',
-      license='LICENSE.rst',
-      install_requires=['pandas'],
-      classifiers=['Intended Audience :: Education',
-                   'Intended Audience :: Science/Research',
-                   'License :: OSI Approved :: MIT License',
-                   'Operating System :: OS Independent',
-                   'Programming Language :: Python',
-                   ]
-      )
+setup(
+    name='pwtdata',
+    version='0.2.0',
+    author='Tetsu Haruyama',
+    author_email='haruyama@econ.kobe-u.ac.jp',
+    packages=find_packages(),
+    package_dir={'pwtdata': './pwtdata'},
+    include_package_data=True,
+    package_data={'pwtdata': additional_files},
+    install_requires=['pandas'],
+    url='https://github.com/spring-haru/pwtdata',
+    license='LICENSE',
+    description='Python package containing the Penn World Table dataset.',
+    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
+    keywords=['data', 'Penn World Table']
+)
