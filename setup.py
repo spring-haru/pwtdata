@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(name='pwtdata',
       packages=find_packages(),
       package_dir={'pwtdata': './pwtdata'},
-      version='0.1.1',
+      version='0.2.0',
       description='Python package for downloading the Penn World Tables dataset.',
       author='Tetsu HARUYAMA',
       author_email='haruyama@econ.kobe-u.ac.jp',

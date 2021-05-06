@@ -1,6 +1,6 @@
 # `pwtdata`
 
-The function of this module is simply to download Penn World Table 9.1 in `pandas.DataFrame`. No more than that.
+The function of this module is simply to download Penn World Table 10.0 in `pandas.DataFrame`. No more than that.
 
 ### How to Use
 ```
